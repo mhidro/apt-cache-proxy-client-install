@@ -9,5 +9,7 @@ wget -qO- https://codeload.github.com/mhidro/apt-cache-proxy-client-install/tar.
 ```
 
 # Clean old cache and update 
+```bash
 sudo apt-get clean
 sudo apt-get update -o Debug::Acquire::http=true
+```
